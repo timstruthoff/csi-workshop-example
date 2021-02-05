@@ -18,11 +18,13 @@ if (!fileExists(config.MESSAGE_FILE)) {
     fs.closeSync(fs.openSync(config.MESSAGE_FILE, 'w')) // Create an empty file
 }
 
-app.get('/worker', (req, res) => {
+app.use(express.static(__dirname + '/public'));
+
+app.get('/', (req, res) => {
     res.send(renderWorkerHtml(hostname));
 });
 
-app.post('/worker', (req, res) => {
+app.post('/', (req, res) => {
     fs.appendFileSync(config.MESSAGE_FILE, `Username: ${req.body.username}\tMessage: ${req.body.message}\n`);
     res.send(renderWorkerHtml(hostname));
     console.log(req.body)

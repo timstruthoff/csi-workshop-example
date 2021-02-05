@@ -1,0 +1,176 @@
+body {
+
+
+    font-family: "Metric Regular", Arial, sans-serif;
+    color: rgb(68, 68, 68);
+}
+
+svg.logo {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    max-width: 600px;
+    width: 100%;
+}
+
+
+h1 {
+    margin: 0px;
+    font-size: 88px;
+    line-height: 94px;
+    max-width: 2122px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "MetricHPE Black";
+    margin-top: 10vh;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2 {
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    text-size-adjust: 100%;
+    word-break: break-word;
+    font-family: "Metric Light";
+}
+
+h2.left {
+    text-align: left;
+    margin-top: 5vh;
+}
+
+form {
+    margin-top: 5vh;
+}
+
+input[type=submit] {
+    display: inline-block;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-style: inherit;
+    font-variant: inherit;
+    font-stretch: inherit;
+    font-family: inherit;
+    text-decoration: none;
+    margin: 0px;
+    background: rgb(23, 235, 160);
+    overflow: visible;
+    text-transform: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 6px 12px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-align: center;
+    transition-property: color, background-color, border-color, box-shadow;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    font-size: inherit;
+    font-family: inherit;
+    appearance: none;
+    background: transparent;
+    color: inherit;
+    width: 100%;
+    line-height: inherit;
+    padding: 6px 12px;
+    font-weight: 400;
+    margin: 0px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 4px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+.copy {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 14px;
+    text-align: center;
+    color: #707070;
+}
+
+@font-face {
+    font-family: 'Metric Light';
+    src: url(/fonts/Metric-Light.woff2) format('woff2'),url(../fonts/Metric-Light.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: 'Metric Regular';
+    src: url(/fonts/Metric-Regular.woff2) format('woff2'),url(../fonts/Metric-Regular.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: 'Metric Medium';
+    src: url(/fonts/Metric-Medium.woff2) format('woff2'),url(../fonts/Metric-Medium.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: 'Metric Semibold';
+    src: url(/fonts/Metric-Semibold.woff2) format('woff2'),url(../fonts/Metric-Semibold.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: 'MetricHPE Black';
+    src: url(/fonts/MetricHPE-Web-Black.woff2) format('woff2'),url(../fonts/MetricHPE-Web-Black.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: 'Simple Light';
+    src: url(/fonts/lineto-simple-pro-light.woff2) format('woff2'),url(../fonts/lineto-simple-pro-light.woff) format('woff'),url(../fonts/lineto-simple-pro-light.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: 'Simple Regular';
+    src: url(/fonts/lineto-simple-pro-regular.woff2) format('woff2'),url(../fonts/lineto-simple-pro-regular.woff) format('woff'),url(../fonts/lineto-simple-pro-regular.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 400
+}
+
+@font-face {
+    font-family: 'Simple Bold';
+    src: url(/fonts/lineto-simple-pro-bold.woff2) format('woff2'),url(../fonts/lineto-simple-pro-bold.woff) format('woff'),url(../fonts/lineto-simple-pro-bold.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 400
+}

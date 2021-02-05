@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: example-application-using-volumes
+  labels:
+    app: example-application-using-volumes
+spec:
+  restartPolicy: Never
+  containers:
+    - name: example-application-using-volumes
+      image: 'timstr/csi-workshop-example:latest'
+      ports:
+        - containerPort: 3000
+      volumeMounts:
+        - mountPath: /usr/src/volume
+          name: message-volume
+  volumes:
+    - name: message-volume
+      emptyDir: {}
